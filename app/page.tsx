@@ -8,7 +8,9 @@ import { StepBox } from "./StepBox";
 
 export default function Home() {
     const [inputText, setInputText] = useState("");
-    const [flashcards, setFlashcards] = useState<{ term: string; definition: string }[]>([]);
+    const [flashcards, setFlashcards] = useState<
+        { term: string; definition: string }[]
+    >([]);
 
     const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
         const text = e.target.value;
@@ -44,7 +46,7 @@ export default function Home() {
             </header>
             <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
                 <div className="p-8">
-                    <div className="grid grid-cols-3 gap-8 items-stretch justify-items-center text-center">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch justify-items-center text-center">
                         <StepBox
                             title="1. Paste your Quizlet content"
                             explanation="Go to your Quizlet deck, select all content (Ctrl+A), copy (Ctrl+C), and paste it into the input box below."
