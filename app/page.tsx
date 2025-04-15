@@ -8,9 +8,9 @@ import { StepBox } from "./StepBox";
 
 export default function Home() {
     const [inputText, setInputText] = useState("");
-    const [flashcards, setFlashcards] = useState([]);
+    const [flashcards, setFlashcards] = useState<{ term: string; definition: string }[]>([]);
 
-    const handleInputChange = (e) => {
+    const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
         const text = e.target.value;
         setInputText(text);
         setFlashcards(extractFlashcards(text));
