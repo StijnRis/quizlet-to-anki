@@ -8,10 +8,6 @@ This project is a web application that allows users to convert Quizlet flashcard
 - User-friendly interface for easy conversion.
 - Fast and reliable performance.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - Built with [Next.js](https://nextjs.org/).
