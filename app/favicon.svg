@@ -1,0 +1,7 @@
+<!-- A simple SVG icon representing two overlapping flashcards -->
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="12" y="20" width="36" height="24" rx="4" fill="#F5F5F5" stroke="#4F46E5" stroke-width="2"/>
+  <rect x="20" y="12" width="36" height="24" rx="4" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+  <text x="38" y="28" text-anchor="middle" fill="#4F46E5" font-size="10" font-family="Arial" font-weight="bold">A</text>
+  <!-- <text x="30" y="36" text-anchor="middle" fill="#4F46E5" font-size="10" font-family="Arial" font-weight="bold">B</text> -->
+</svg>
